@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/saveddata">
+
+
+    <EditText
+        android:id="@+id/emailitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="296dp"
+        android:ems="10"
+        android:hint="EMAIL"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/descritem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="496dp"
+        android:ems="10"
+        android:hint="DISCRIPTION"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/phoneitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="196dp"
+        android:ems="10"
+        android:hint="PHONE"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/addressitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="396dp"
+        android:ems="10"
+        android:hint="ADDRESS"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descritem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/but"
+            android:text="DELETE"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/btnDelete"
+            android:background="@drawable/but"
+            android:text="SAVE"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="670dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#E6E4E4"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="65dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="675dp"
+        android:background="@drawable/share" />
+
+    <Button
+        android:id="@+id/btncall"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="195dp"
+        android:background="@drawable/phone" />
+
+</RelativeLayout>
